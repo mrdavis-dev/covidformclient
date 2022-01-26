@@ -11,16 +11,20 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/8632e9fdd4.js" crossorigin="anonymous"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+
+
     <!-- adsense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4118735753673684"
-     crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4118735753673684" crossorigin="anonymous"></script>
     <title>Formulario</title>
 </head>
 
-<body>
+<body style="font-family: 'Mukta', sans-serif;">
     <div class='container mt-5'>
         <div class="text-center">
-            <img src="logoeut.png" style="width: 450px;">
+            <img src="logoeut.png" style="width: 350px;">
             <h2>Centro de salud San Cristobal</h2>
         </div>
         <div class="mt-4">
@@ -29,26 +33,26 @@
 
                 <div class="mb-3">
                     <label for=""></label>
-                    <input class="form-control form-control-lg" type="text" placeholder="Cedula:" name="cedula">
+                    <input class="form-control form-control-lg" type="text" placeholder="Cedula:" name="cedula" required>
                 </div>
 
                 <div class="mb-3">
                     <label for=""></label>
-                    <input class="form-control form-control-lg" type="text" placeholder="Nombre Completo:" name="names">
+                    <input class="form-control form-control-lg" type="text" placeholder="Nombre Completo:" name="names" required>
                 </div>
 
                 <div class="mb-3">
                     <label for=""></label>
-                    <input class="form-control form-control-lg" type="text" placeholder="Telefono:" name="telefono">
+                    <input class="form-control form-control-lg" type="text" placeholder="Telefono:" name="telefono" required>
                 </div>
 
                 <div class="mb-3">
                     <label for=""></label>
-                    <input class="form-control form-control-lg" type="text" placeholder="Edad:" name="edad">
+                    <input class="form-control form-control-lg" type="text" placeholder="Edad:" name="edad" required>
                 </div>
 
                 <div class="mb-3">
-                    <Label>Tiene alguna alergia o enfermedad:</Label>
+                    <Label>Tiene alguna alergia o enfermedad:</Label><br>
                     <label class="mt-4" for="chk-Yes">
                         <input type="radio" id="chk-Yes" name="show-div" /> Si
                     </label>
@@ -60,32 +64,32 @@
 
                 <div class="mb-3">
                     <label for="">Fecha de hisopado:</label>
-                    <input class="form-control form-control-lg" type="date" placeholder="" name="fecha_hi">
+                    <input class="form-control form-control-lg" type="date" placeholder="" name="fecha_hi" required>
                 </div>
 
                 <div class="mb-3">
                     <label for=""></label>
-                    <input class="form-control form-control-lg" type="text" placeholder="Lugar de hisopado:" name="lugar_hisopado">
+                    <input class="form-control form-control-lg" type="text" placeholder="Lugar de hisopado:" name="lugar_hisopado" required>
                 </div>
 
                 <div class="mb-3">
                     <label for=""></label>
-                    <input class="form-control form-control-lg" type="text" placeholder="Direccion:" name="direccion">
+                    <input class="form-control form-control-lg" type="text" placeholder="Direccion:" name="direccion" required>
                 </div>
 
                 <div class="mb-3">
                     <label for=""></label>
-                    <input class="form-control form-control-lg" type="text" placeholder="Sintomas:" name="sintomas">
+                    <input class="form-control form-control-lg" type="text" placeholder="Sintomas:" name="sintomas" required>
                 </div>
 
                 <div class="mb-3">
                     <label for=""></label>
-                    <input class="form-control form-control-lg" type="number" placeholder="Contactos en casa:" name="contactos_en_casa">
+                    <input class="form-control form-control-lg" type="number" placeholder="Contactos en casa:" name="contactos_en_casa" required>
                 </div>
 
                 <div class="mb-4">
                     <label for=""></label>
-                    <input class="form-control form-control-lg" type="number" placeholder="Positivos en casa:" name="positivos_en_casa">
+                    <input class="form-control form-control-lg" type="number" placeholder="Positivos en casa:" name="positivos_en_casa" required>
                 </div>
 
                 <div class="col-6 mx-auto mt-4 mb-5">
