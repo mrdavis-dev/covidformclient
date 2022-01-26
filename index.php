@@ -15,7 +15,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
 
+    <!-- google analityc -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0Y6DN0W4D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-K0Y6DN0W4D');
+    </script>
     <!-- adsense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4118735753673684" crossorigin="anonymous"></script>
     <title>Formulario</title>
@@ -73,7 +85,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for=""></label>
+                    <label for="" style="color: red;">"Coloque la dirección con detalles específicos. Ejemplo: David, calle j sur octava casa amarilla a la mano derecha"</label>
                     <input class="form-control form-control-lg" type="text" placeholder="Direccion:" name="direccion" required>
                 </div>
 
