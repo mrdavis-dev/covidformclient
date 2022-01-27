@@ -60,7 +60,7 @@
 
                 <div class="mb-3">
                     <label for=""></label>
-                    <input class="form-control form-control-lg" type="text" placeholder="Edad:" name="edad" required>
+                    <input class="form-control form-control-lg" type="number" placeholder="Edad:" name="edad" required>
                 </div>
 
                 <div class="mb-3">
@@ -85,12 +85,12 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="" style="color: red;">"Coloque la dirección con detalles específicos. Ejemplo: David, calle j sur octava casa amarilla a la mano derecha"</label>
+                    <label for="" style="color: #ff0534;">"Coloque la dirección con detalles específicos. Ejemplo: David, calle j sur octava casa amarilla a la mano derecha"</label>
                     <input class="form-control form-control-lg" type="text" placeholder="Direccion:" name="direccion" required>
                 </div>
 
                 <div class="mb-3">
-                    <label for=""></label>
+                    <label for="" style="color: #ff0534;">"Coloque si presenta una tos seca o con flema"</label>
                     <input class="form-control form-control-lg" type="text" placeholder="Sintomas:" name="sintomas" required>
                 </div>
 
@@ -102,6 +102,11 @@
                 <div class="mb-4">
                     <label for=""></label>
                     <input class="form-control form-control-lg" type="number" placeholder="Positivos en casa:" name="positivos_en_casa" required>
+                </div>
+
+                <div class="mb-4">
+                    <label for="" class="form-label">Nota:<br><span>"si hay mas de un positvo en su hogar deje sus datos en este cuadro"</span></label>
+                    <textarea class="form-control" name="nota" rows="3"></textarea>
                 </div>
 
                 <div class="col-6 mx-auto mt-4 mb-5">

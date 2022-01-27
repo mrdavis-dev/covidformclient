@@ -31,11 +31,12 @@
   $sintomas = $_POST["sintomas"];
   $contactos_en_casa = $_POST["contactos_en_casa"];
   $positivos_en_casa = $_POST["positivos_en_casa"];
+  $nota = $_POST["nota"];
 
   if (empty($_POST['save'])) {
     // code...
-    $sql = "INSERT INTO paciente (cedula, names, telefono, edad, enfe_o_alergia, fecha_hi, lugar_hisopado, direccion, sintomas, contactos_en_casa, positivos_en_casa) 
-  VALUES ('$cedula','$names','$telefono',$edad,'$enfe_o_alergia','$fecha_hi','$lugar_hisopado','$direccion','$sintomas',$contactos_en_casa,$positivos_en_casa)";
+    $sql = "INSERT INTO paciente (cedula, names, telefono, edad, enfe_o_alergia, fecha_hi, lugar_hisopado, direccion, sintomas, contactos_en_casa, positivos_en_casa, nota) 
+  VALUES ('$cedula','$names','$telefono',$edad,'$enfe_o_alergia','$fecha_hi','$lugar_hisopado','$direccion','$sintomas',$contactos_en_casa,$positivos_en_casa, '$nota')";
     $result = mysqli_query($link, $sql);
 
     // header("location: ../index.php?enviado");
